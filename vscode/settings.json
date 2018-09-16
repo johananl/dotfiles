@@ -1,0 +1,22 @@
+{
+    "editor.fontSize": 12,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Material Theme Palenight",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "todohighlight.keywords": [
+        "TODO"
+    ],
+    "go.enableCodeLens": {
+        "references": false,
+        "runtest": false
+    },
+    "rewrap.wrappingColumn": 99,
+    "editor.rulers": [
+        100
+    ],
+    "editor.renderWhitespace": "none",
+    "files.insertFinalNewline": true,
+    "terraform.codelens.enabled": false,
+    "java.errors.incompleteClasspath.severity": "ignore"
+}
