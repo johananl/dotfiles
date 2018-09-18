@@ -7,3 +7,4 @@ brew 'trash'
 # Apps
 cask 'google-chrome'
 cask 'iterm2'
+cask 'kindle'
