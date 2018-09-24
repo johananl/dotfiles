@@ -47,6 +47,12 @@ alias gitwhen='git log --pretty=format:"%h%x09%an%x09%ad%x09%s"'
 alias top='top -o cpu'
 alias myip="curl -s ipinfo.io | jq -r '.ip'"
 
+# Functions
+# Roll a random number to generate passphrases
+roll () {
+    python -c "import random; print(''.join(map(str, [random.randint(1,6) for x in range($1)])))"
+}
+
 # Disable shared history
 unsetopt share_history
 
