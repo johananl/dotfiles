@@ -3,6 +3,7 @@ brew 'zsh'
 brew 'zsh-completions'
 brew 'zsh-syntax-highlighting'
 brew 'trash'
+brew 'go'
 
 # Apps
 cask 'google-chrome'
