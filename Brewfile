@@ -4,6 +4,7 @@ brew 'zsh-completions'
 brew 'zsh-syntax-highlighting'
 brew 'trash'
 brew 'go'
+brew 'kubectl'
 
 # Apps
 cask 'google-chrome'
