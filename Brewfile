@@ -5,6 +5,7 @@ brew 'zsh-syntax-highlighting'
 brew 'trash'
 brew 'go'
 brew 'kubectl'
+brew 'wget'
 
 # Apps
 cask 'google-chrome'
