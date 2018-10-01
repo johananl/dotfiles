@@ -6,6 +6,7 @@ brew 'trash'
 brew 'go'
 brew 'kubectl'
 brew 'wget'
+brew 'pt'
 
 # Apps
 cask 'google-chrome'
