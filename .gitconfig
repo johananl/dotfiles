@@ -14,3 +14,6 @@
 # Uncommitted gitconfig file (contains sensitive information)
 [include]
 	path = ~/.gitconfig_local
+[user]
+	email = 
+	name = 
