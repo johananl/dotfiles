@@ -48,9 +48,13 @@ alias top='top -o cpu'
 alias myip="curl -s ipinfo.io | jq -r '.ip'"
 
 # Functions
-# Roll a random number to generate passphrases
-roll () {
-    python -c "import random; print(''.join(map(str, [random.randint(1,6) for x in range($1)])))"
+# Generate a random word for passphrases
+dice () {
+    for i in {1..$1}; do
+        curl -s https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt \
+        | grep $(python -c "import random; print(''.join(map(str, [random.randint(1,6) for x in range(5)])))") \
+        | awk '{print $2}'
+    done
 }
 
 # Disable shared history
