@@ -1,7 +1,7 @@
 [color]
 	ui = true
 [core]
-	pager = less
+	pager = less -F -X
 	editor = vim
 [pager]
 	stash = false
