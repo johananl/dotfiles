@@ -18,5 +18,7 @@
     "editor.renderWhitespace": "none",
     "files.insertFinalNewline": true,
     "terraform.codelens.enabled": false,
-    "java.errors.incompleteClasspath.severity": "ignore"
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "explorer.confirmDelete": false
 }
+
