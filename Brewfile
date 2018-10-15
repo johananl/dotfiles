@@ -7,6 +7,7 @@ brew 'go'
 brew 'kubectl'
 brew 'wget'
 brew 'pt'
+brew 'blackbox'
 
 # Apps
 cask 'google-chrome'
