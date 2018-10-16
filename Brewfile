@@ -8,6 +8,7 @@ brew 'kubectl'
 brew 'wget'
 brew 'pt'
 brew 'blackbox'
+brew 'pwgen'
 
 # Apps
 cask 'google-chrome'
