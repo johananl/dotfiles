@@ -9,6 +9,7 @@ brew 'wget'
 brew 'pt'
 brew 'blackbox'
 brew 'pwgen'
+brew 'telnet'
 
 # Apps
 cask 'google-chrome'
