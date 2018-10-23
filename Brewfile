@@ -10,6 +10,7 @@ brew 'pt'
 brew 'blackbox'
 brew 'pwgen'
 brew 'telnet'
+brew 'awscli'
 
 # Apps
 cask 'google-chrome'
