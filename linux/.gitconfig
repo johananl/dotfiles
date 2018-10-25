@@ -1,0 +1,19 @@
+[color]
+	ui = true
+[core]
+	pager = less -F -X
+	editor = vim
+[pager]
+	stash = false
+	log = true
+	diff = false
+	show = false
+[alias]
+	clean-branches = !sh -c 'git branch --merged | grep -v \"\\*\" | grep -v master | xargs git branch -d'
+
+# Uncommitted gitconfig file (contains sensitive information)
+[include]
+	path = ~/.gitconfig_local
+[user]
+	email = 
+	name = 
