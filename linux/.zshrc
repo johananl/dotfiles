@@ -59,6 +59,9 @@ dice () {
     done
 }
 
+# Start Visual Studio Code in background
+code() { nohup /usr/bin/code "$@" > /dev/null 2>&1 & }
+
 # Disable shared history
 unsetopt share_history
 
