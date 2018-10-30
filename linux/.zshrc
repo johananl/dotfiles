@@ -48,6 +48,7 @@ alias top='top -o cpu'
 alias myip="curl -s ipinfo.io | jq -r '.ip'"
 alias xc='xclip'
 alias xco='xclip -o'
+alias code='/usr/local/bin/code-bg'
 
 # Functions
 # Generate a random word for passphrases
@@ -58,9 +59,6 @@ dice () {
         | awk '{print $2}'
     done
 }
-
-# Start Visual Studio Code in background
-code() { nohup /usr/bin/code "$@" > /dev/null 2>&1 & }
 
 # Disable shared history
 unsetopt share_history
