@@ -49,6 +49,7 @@ alias myip="curl -s ipinfo.io | jq -r '.ip'"
 alias xc='xclip'
 alias xco='xclip -o'
 alias code='/usr/local/bin/code-bg'
+alias pp='python -mjson.tool'
 
 # Functions
 # Generate a random word for passphrases
