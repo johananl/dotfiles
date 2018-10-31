@@ -44,7 +44,6 @@ alias gdl="git diff --color=always | less -r"
 alias gdcal="git diff --cached --color=always | less -r"
 alias vi='vim'
 alias gitwhen='git log --pretty=format:"%h%x09%an%x09%ad%x09%s"'
-alias top='top -o cpu'
 alias myip="curl -s ipinfo.io | jq -r '.ip'"
 alias xc='xclip'
 alias xco='xclip -o'
