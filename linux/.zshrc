@@ -68,3 +68,6 @@ bindkey "[C" forward-word
 
 # ZSH syntax highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Use vim as an editor
+export EDITOR=vim
