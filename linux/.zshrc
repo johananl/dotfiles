@@ -71,3 +71,6 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 # Use vim as an editor
 export EDITOR=vim
+
+# Hook direnv to shell
+eval "$(direnv hook zsh)"
