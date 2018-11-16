@@ -12,3 +12,5 @@
 [user]
 	email = 
 	name = 
+[rebase]
+	autosquash = true
