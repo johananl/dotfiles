@@ -19,5 +19,6 @@
     "java.errors.incompleteClasspath.severity": "ignore",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "workbench.colorTheme": "Material Theme Palenight High Contrast"
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "editor.fontSize": 12
 }
