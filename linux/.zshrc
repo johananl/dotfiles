@@ -74,3 +74,7 @@ export EDITOR=vim
 
 # Hook direnv to shell
 eval "$(direnv hook zsh)"
+
+# Vault autocomplete
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/vault vault
