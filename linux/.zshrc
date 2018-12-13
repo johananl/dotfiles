@@ -47,7 +47,7 @@ alias gitwhen='git log --pretty=format:"%h%x09%an%x09%ad%x09%s"'
 alias myip="curl -s ipinfo.io | jq -r '.ip'"
 alias xc='xclip'
 alias xco='xclip -o'
-alias code='/usr/local/bin/code-bg'
+#alias code='/usr/local/bin/code-bg'
 
 # Functions
 # Generate a random word for passphrases
