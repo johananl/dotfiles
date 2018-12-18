@@ -11,6 +11,7 @@
     },
     "rewrap.wrappingColumn": 99,
     "editor.rulers": [
+        80,
         100
     ],
     "editor.renderWhitespace": "none",
