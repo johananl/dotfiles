@@ -47,6 +47,8 @@ alias gitwhen='git log --pretty=format:"%h%x09%an%x09%ad%x09%s"'
 alias myip="curl -s ipinfo.io | jq -r '.ip'"
 alias xc='xclip'
 alias xco='xclip -o'
+# Workaround until https://github.com/StackExchange/blackbox/pull/282 is merged
+alias blackbox_deregister_file='~/blackbox/bin/blackbox_deregister_file'
 
 # Functions
 # Generate a random word for passphrases
