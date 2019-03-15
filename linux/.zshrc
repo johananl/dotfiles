@@ -50,6 +50,7 @@ alias xc='xclip'
 alias xco='xclip -o'
 # Workaround until https://github.com/StackExchange/blackbox/pull/282 is merged
 alias blackbox_deregister_file='~/blackbox/bin/blackbox_deregister_file'
+alias spotify='spotify --force-device-scale-factor=2'
 
 # Functions
 # Generate a random word for passphrases
