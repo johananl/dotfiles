@@ -8,6 +8,7 @@ ZSH_THEME="af-magic"
 
 # Set PATH (custom)
 export PATH=$PATH:~/go/bin
+export PATH=$PATH:~/.cargo/bin
 
 # Python 3
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
