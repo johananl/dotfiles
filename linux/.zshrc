@@ -83,3 +83,6 @@ eval "$(direnv hook zsh)"
 # Vault autocomplete
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/vault vault
+
+# Go
+export GOPATH=~/go
