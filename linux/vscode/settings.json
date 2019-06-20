@@ -22,5 +22,6 @@
     "explorer.confirmDragAndDrop": false,
     "workbench.colorTheme": "Material Theme Palenight High Contrast",
     "editor.fontSize": 12,
-    "window.titleBarStyle": "native"
+    "window.titleBarStyle": "native",
+    "go.formatTool": "goimports"
 }
