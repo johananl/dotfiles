@@ -56,7 +56,6 @@ alias blackbox_deregister_file='~/blackbox/bin/blackbox_deregister_file'
 alias spotify='spotify --force-device-scale-factor=2'
 alias display-home='eval $(display-external 2560x1440 1.5)'
 alias display-laptop='eval $(display-builtin)'
-alias az='docker run -it --rm -v ~/.azure:/root/.azure --entrypoint az microsoft/azure-cli'
 
 # Functions
 # Generate a random word for passphrases
