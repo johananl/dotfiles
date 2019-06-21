@@ -23,5 +23,6 @@
     "workbench.colorTheme": "Material Theme Palenight High Contrast",
     "editor.fontSize": 12,
     "window.titleBarStyle": "native",
-    "go.formatTool": "goimports"
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true
 }
