@@ -90,3 +90,4 @@ complete -o nospace -C /usr/local/bin/vault vault
 
 # Go
 export GOPATH=~/go
+export GOROOT=/usr/lib/go
