@@ -23,5 +23,11 @@
     "workbench.colorTheme": "Material Theme Palenight High Contrast",
     "editor.fontSize": 12,
     "window.titleBarStyle": "native",
-    "go.useLanguageServer": true
+    "go.useLanguageServer": true,
+    "python.venvPath": "~/.python-envs",
+    "python.pythonPath": "/home/johannes/.python-envs/otel/bin/python",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "cSpell.userWords": [
+        "kubernetes"
+    ]
 }
