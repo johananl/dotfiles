@@ -29,5 +29,6 @@
     "java.configuration.checkProjectSettingsExclusions": false,
     "cSpell.userWords": [
         "kubernetes"
-    ]
+    ],
+    "python.formatting.provider": "black"
 }
