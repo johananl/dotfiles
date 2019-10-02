@@ -32,5 +32,6 @@
     ],
     "python.formatting.provider": "black",
     "python.sortImports.path": "isort",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveTimeout": 3000
 }
