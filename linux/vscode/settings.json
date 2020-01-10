@@ -34,5 +34,18 @@
     "python.formatting.provider": "black",
     "python.sortImports.path": "isort",
     "editor.formatOnSave": true,
-    "editor.formatOnSaveTimeout": 3000
+    "editor.formatOnSaveTimeout": 3000,
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "enabled": true,
+        "args": []
+    }
 }
