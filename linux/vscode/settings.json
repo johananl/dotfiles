@@ -28,6 +28,7 @@
     "python.pythonPath": "/home/johannes/.python-envs/otel/bin/python",
     "java.configuration.checkProjectSettingsExclusions": false,
     "cSpell.userWords": [
+        "kinvolk",
         "kubernetes"
     ],
     "python.formatting.provider": "black",
