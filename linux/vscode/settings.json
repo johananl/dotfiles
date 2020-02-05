@@ -47,5 +47,6 @@
     "terraform.languageServer": {
         "enabled": true,
         "args": []
-    }
+    },
+    "markdown.extension.tableFormatter.enabled": false
 }
