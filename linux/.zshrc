@@ -97,3 +97,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
+
+# kubectl completion
+source <(kubectl completion zsh)
+complete -F __start_kubectl kc
