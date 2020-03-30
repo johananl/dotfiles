@@ -25,7 +25,7 @@
     "window.titleBarStyle": "native",
     "go.useLanguageServer": true,
     "python.venvPath": "~/.python-envs",
-    "python.pythonPath": "/home/johannes/.python-envs/otel/bin/python",
+    "python.pythonPath": "/bin/python",
     "java.configuration.checkProjectSettingsExclusions": false,
     "cSpell.userWords": [
         "kinvolk",
