@@ -3,6 +3,7 @@
   scroll_tabbar = True
   title_hide_sizetext = True
   title_transmit_bg_color = "#4e9a06"
+[keybindings]
 [layouts]
   [[default]]
     [[[child1]]]
