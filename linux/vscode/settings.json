@@ -33,7 +33,7 @@
     ],
     "python.formatting.provider": "black",
     "python.sortImports.path": "isort",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.formatOnSaveTimeout": 3000,
     "terraform.indexing": {
         "enabled": false,
