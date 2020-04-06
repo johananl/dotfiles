@@ -42,6 +42,7 @@ alias gs="git show"
 alias gai="git add -i"
 alias gcob="git checkout -b"
 alias kc="kubectl"
+alias kcnk='kubectl -n kube-system'
 alias tf="terraform"
 alias gdca="git diff --cached --color=always"
 alias gdl="git diff --color=always | less -r"
