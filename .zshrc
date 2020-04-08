@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/jliebermann/.oh-my-zsh
+export ZSH=/home/johannes/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -8,15 +8,19 @@ ZSH_THEME="af-magic"
 
 # Set PATH (custom)
 export PATH=$PATH:~/go/bin
+export PATH=$PATH:~/.cargo/bin
 
 # Python 3
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
+# Azure CLI
+export PATH=$PATH:~/bin
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-completions)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -38,14 +42,21 @@ alias gs="git show"
 alias gai="git add -i"
 alias gcob="git checkout -b"
 alias kc="kubectl"
+alias kcnk='kubectl -n kube-system'
 alias tf="terraform"
 alias gdca="git diff --cached --color=always"
 alias gdl="git diff --color=always | less -r"
 alias gdcal="git diff --cached --color=always | less -r"
 alias vi='vim'
 alias gitwhen='git log --pretty=format:"%h%x09%an%x09%ad%x09%s"'
-alias top='top -o cpu'
 alias myip="curl -s ipinfo.io | jq -r '.ip'"
+alias xc='xclip'
+alias xco='xclip -o'
+# Workaround until https://github.com/StackExchange/blackbox/pull/282 is merged
+alias blackbox_deregister_file='~/blackbox/bin/blackbox_deregister_file'
+alias spotify='spotify --force-device-scale-factor=2'
+alias display-home='eval $(display-external 2560x1440 1.5)'
+alias display-laptop='eval $(display-builtin)'
 
 # Functions
 # Generate a random word for passphrases
@@ -65,4 +76,29 @@ bindkey "[D" backward-word
 bindkey "[C" forward-word
 
 # ZSH syntax highlighting
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Use vim as an editor
+export EDITOR=vim
+
+# Hook direnv to shell
+eval "$(direnv hook zsh)"
+
+# Vault autocomplete
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/vault vault
+
+# Go
+export GOPATH=~/go
+export GOROOT=/usr/lib/go
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
+# kubectl completion
+source <(kubectl completion zsh)
+complete -F __start_kubectl kc

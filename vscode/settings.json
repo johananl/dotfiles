@@ -1,8 +1,6 @@
 {
-    "editor.fontSize": 12,
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "Material Theme Palenight",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
     "workbench.startupEditor": "newUntitledFile",
     "todohighlight.keywords": [
         "TODO"
@@ -13,6 +11,7 @@
     },
     "rewrap.wrappingColumn": 99,
     "editor.rulers": [
+        80,
         100
     ],
     "editor.renderWhitespace": "none",
@@ -20,5 +19,34 @@
     "terraform.codelens.enabled": false,
     "java.errors.incompleteClasspath.severity": "ignore",
     "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "editor.fontSize": 12,
+    "window.titleBarStyle": "native",
+    "go.useLanguageServer": true,
+    "python.venvPath": "~/.python-envs",
+    "python.pythonPath": "/bin/python",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "cSpell.userWords": [
+        "kinvolk",
+        "kubernetes"
+    ],
+    "python.formatting.provider": "black",
+    "python.sortImports.path": "isort",
+    "editor.formatOnSave": false,
+    "editor.formatOnSaveTimeout": 3000,
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "enabled": true,
+        "args": []
+    },
+    "markdown.extension.tableFormatter.enabled": false
 }
