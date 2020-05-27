@@ -14,5 +14,3 @@
 	name = 
 [rebase]
 	autosquash = true
-[diff]
-	noprefix = true
