@@ -45,8 +45,10 @@
         ]
     },
     "terraform.languageServer": {
-        "enabled": true,
-        "args": []
+        "external": true,
+        "args": [
+            "serve"
+        ]
     },
     "markdown.extension.tableFormatter.enabled": false,
     "gitlens.menus": {
