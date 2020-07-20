@@ -58,6 +58,7 @@ alias blackbox_deregister_file='~/blackbox/bin/blackbox_deregister_file'
 alias spotify='spotify --force-device-scale-factor=2'
 alias display-home='eval $(display-external 2560x1440 1.5)'
 alias display-laptop='eval $(display-builtin)'
+alias screenshot='flameshot gui -d 2000'
 
 # Functions
 # Generate a random word for passphrases
