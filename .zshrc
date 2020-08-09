@@ -6,6 +6,11 @@ export ZSH=/home/johannes/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="af-magic"
 
+# Run tmux on startup
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux
+fi
+
 # Set PATH (custom)
 export PATH=$PATH:~/go/bin
 export PATH=$PATH:~/.cargo/bin
