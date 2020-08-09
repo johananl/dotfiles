@@ -64,6 +64,7 @@ alias spotify='spotify --force-device-scale-factor=2'
 alias display-home='eval $(display-external 2560x1440 1.5)'
 alias display-laptop='eval $(display-builtin)'
 alias screenshot='flameshot gui -d 2000'
+alias lh='ls -alh'
 
 # Functions
 # Generate a random word for passphrases
