@@ -85,6 +85,5 @@
             "remote": true,
             "stash": true
         }
-    },
-    "go.formatTool": "gofmt"
+    }
 }
