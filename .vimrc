@@ -9,3 +9,8 @@ noremap <Up> :echo "No up for you!"<CR>
 noremap <Down> :echo "No down for you!"<CR>
 noremap <Left> :echo "No left for you!"<CR>
 noremap <Right> :echo "No right for you!"<CR>
+
+" Colors
+syntax enable
+set background=dark
+colorscheme solarized
