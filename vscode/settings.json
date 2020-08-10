@@ -23,6 +23,7 @@
     "workbench.colorTheme": "Material Theme Palenight High Contrast",
     "editor.fontSize": 12,
     "window.titleBarStyle": "native",
+    "go.useLanguageServer": true,
     "python.venvPath": "~/.python-envs",
     "python.pythonPath": "/bin/python",
     "java.configuration.checkProjectSettingsExclusions": false,
