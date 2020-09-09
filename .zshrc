@@ -47,6 +47,7 @@ export LC_ALL=en_US.UTF-8
 alias gs="git show"
 alias gai="git add -i"
 alias gcob="git checkout -b"
+alias gbv="git branch -vvvv"
 alias kc="kubectl"
 alias kcnk='kubectl -n kube-system'
 alias tf="terraform"
