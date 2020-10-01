@@ -90,5 +90,8 @@
     "go.lintTool": "golangci-lint",
     "go.lintFlags": [
         "--fast"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "editorLineNumber.foreground": "#aaa"
+    }
 }
