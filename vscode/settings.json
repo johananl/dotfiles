@@ -93,5 +93,8 @@
     ],
     "workbench.colorCustomizations": {
         "editorLineNumber.foreground": "#aaa"
+    },
+    "gopls": {
+        "experimentalWorkspaceModule": true
     }
 }
