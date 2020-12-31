@@ -16,3 +16,5 @@
 	autosquash = true
 [pull]
 	rebase = false
+[format]
+	signoff = true
