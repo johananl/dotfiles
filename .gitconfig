@@ -18,3 +18,5 @@
 	rebase = false
 [format]
 	signoff = true
+[init]
+	defaultBranch = master
