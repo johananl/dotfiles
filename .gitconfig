@@ -5,7 +5,8 @@
 	editor = vim
 [alias]
 	clean-branches = !sh -c 'git branch --merged | grep -v \"\\*\" | grep -v master | xargs git branch -d'
-
+[alias]
+  wip = for-each-ref --sort='-authordate:iso8601' --count 20 --format=' %(color:green)%(authordate:relative)%09%(color:white)%(refname:short)' refs/heads
 # Uncommitted gitconfig file (contains sensitive information)
 [include]
 	path = ~/.gitconfig_local
