@@ -59,8 +59,6 @@ alias gitwhen='git log --pretty=format:"%h%x09%an%x09%ad%x09%s"'
 alias myip="curl -s ipinfo.io | jq -r '.ip'"
 alias xc='xclip'
 alias xco='xclip -o'
-# Workaround until https://github.com/StackExchange/blackbox/pull/282 is merged
-alias blackbox_deregister_file='~/blackbox/bin/blackbox_deregister_file'
 alias spotify='spotify --force-device-scale-factor=2'
 alias display-home='eval $(display-external 2560x1440 1.5)'
 alias display-laptop='eval $(display-builtin)'
