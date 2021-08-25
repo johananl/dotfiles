@@ -96,5 +96,7 @@
     },
     "gopls": {
         "experimentalWorkspaceModule": true
-    }
+    },
+    "go.buildTags": "e2e",
+    "go.testTags": ""
 }
