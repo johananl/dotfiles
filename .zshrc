@@ -32,6 +32,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# Contains stuff I don't want to commit to a public repo
+source ~/.zshrc_local
+
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
