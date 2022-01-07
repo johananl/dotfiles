@@ -100,5 +100,7 @@
     "go.buildTags": "e2e",
     "go.testTags": "",
     "rust-analyzer.inlayHints.typeHints": false,
-    "rust-analyzer.inlayHints.chainingHints": false
+    "rust-analyzer.inlayHints.chainingHints": false,
+    "rust-analyzer.inlayHints.enable": false,
+    "extensions.autoUpdate": false
 }
