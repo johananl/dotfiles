@@ -13,4 +13,6 @@ noremap <Right> :echo "No right for you!"<CR>
 " Colors
 syntax enable
 set background=dark
-colorscheme solarized
+
+autocmd FileType gitcommit set spell
+autocmd FileType gitcommit set textwidth=72
