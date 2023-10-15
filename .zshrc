@@ -33,7 +33,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # Contains stuff I don't want to commit to a public repo
-source ~/.zshrc_local
+#source ~/.zshrc_local
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
@@ -111,8 +111,8 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 
 # kubectl completion
-source <(kubectl completion zsh)
-complete -F __start_kubectl kc
+#source <(kubectl completion zsh)
+#complete -F __start_kubectl kc
 
 # Azure CLI completion
-source '/home/johannes/lib/azure-cli/az.completion'
+#source '/home/johannes/lib/azure-cli/az.completion'
