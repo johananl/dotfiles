@@ -87,7 +87,7 @@ bindkey "[D" backward-word
 bindkey "[C" forward-word
 
 # ZSH syntax highlighting
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Use vim as an editor
 export EDITOR=vim
