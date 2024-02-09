@@ -12,7 +12,7 @@ if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] &&
 fi
 
 # Set PATH (custom)
-export PATH=$PATH:~/go/bin
+export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:~/.cargo/bin
 export PATH=$PATH:~/.local/bin
 
@@ -95,10 +95,6 @@ export EDITOR=vim
 # Vault autocomplete
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/vault vault
-
-# Go
-export GOPATH=~/go
-export GOROOT=/usr/lib/go
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
