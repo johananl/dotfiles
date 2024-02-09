@@ -13,6 +13,7 @@ fi
 
 # Set PATH (custom)
 export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:~/go/bin
 export PATH=$PATH:~/.cargo/bin
 export PATH=$PATH:~/.local/bin
 
