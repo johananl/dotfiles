@@ -3,6 +3,10 @@ DISABLE_MAGIC_FUNCTIONS=true
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
+# Ensure comments are visible on dark backgrounds
+typeset -gA ZSH_HIGHLIGHT_STYLES
+export ZSH_HIGHLIGHT_STYLES[comment]='none'
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
