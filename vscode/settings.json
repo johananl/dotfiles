@@ -94,9 +94,6 @@
     "workbench.colorCustomizations": {
         "editorLineNumber.foreground": "#aaa"
     },
-    "gopls": {
-        "experimentalWorkspaceModule": true
-    },
     "go.buildTags": "e2e",
     "go.testTags": "",
     "rust-analyzer.inlayHints.typeHints": false,
