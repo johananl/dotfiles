@@ -20,7 +20,6 @@
     "java.errors.incompleteClasspath.severity": "ignore",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
     "editor.fontSize": 12,
     "window.titleBarStyle": "native",
     "go.useLanguageServer": true,
@@ -100,5 +99,6 @@
     "rust-analyzer.inlayHints.chainingHints": false,
     "rust-analyzer.inlayHints.enable": false,
     "extensions.autoUpdate": false,
-    "editor.mouseWheelScrollSensitivity": 2
+    "editor.mouseWheelScrollSensitivity": 2,
+    "workbench.colorTheme": "Material Theme Palenight High Contrast"
 }
