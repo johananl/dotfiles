@@ -104,8 +104,8 @@ autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/vault vault
 
 # kubectl completion
-#source <(kubectl completion zsh)
-#complete -F __start_kubectl kc
+source <(kubectl completion zsh)
+complete -F __start_kubectl kc
 
 # Azure CLI completion
 #source '/home/johannes/lib/azure-cli/az.completion'
