@@ -95,10 +95,11 @@
     },
     "go.buildTags": "e2e",
     "go.testTags": "",
-    "rust-analyzer.inlayHints.typeHints": false,
-    "rust-analyzer.inlayHints.chainingHints": false,
-    "rust-analyzer.inlayHints.enable": false,
     "extensions.autoUpdate": false,
     "editor.mouseWheelScrollSensitivity": 2,
-    "workbench.colorTheme": "Material Theme Palenight High Contrast"
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.inlayHints.typeHints.enable": false
 }
