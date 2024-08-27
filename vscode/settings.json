@@ -9,47 +9,21 @@
         "references": false,
         "runtest": false
     },
-    "rewrap.wrappingColumn": 99,
     "editor.rulers": [
         80,
         100
     ],
     "editor.renderWhitespace": "none",
-    "files.insertFinalNewline": true,
-    "terraform.codelens.enabled": false,
-    "java.errors.incompleteClasspath.severity": "ignore",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "editor.fontSize": 12,
     "window.titleBarStyle": "native",
     "go.useLanguageServer": true,
-    "python.venvPath": "~/.python-envs",
-    "python.pythonPath": "/bin/python",
-    "java.configuration.checkProjectSettingsExclusions": false,
     "cSpell.userWords": [
         "kinvolk",
         "kubernetes"
     ],
-    "python.formatting.provider": "black",
-    "python.sortImports.path": "isort",
-    "editor.formatOnSave": false,
-    "editor.formatOnSaveTimeout": 3000,
-    "terraform.indexing": {
-        "enabled": false,
-        "liveIndexing": false,
-        "delay": 500,
-        "exclude": [
-            ".terraform/**/*",
-            "**/.terraform/**/*"
-        ]
-    },
-    "terraform.languageServer": {
-        "external": true,
-        "args": [
-            "serve"
-        ]
-    },
-    "markdown.extension.tableFormatter.enabled": false,
+    "editor.formatOnSave": true,
     "gitlens.menus": {
         "editor": {
             "blame": false,
@@ -101,5 +75,15 @@
     "rust-analyzer.inlayHints.closingBraceHints.enable": false,
     "rust-analyzer.inlayHints.chainingHints.enable": false,
     "rust-analyzer.inlayHints.parameterHints.enable": false,
-    "rust-analyzer.inlayHints.typeHints.enable": false
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "terminal.integrated.copyOnSelection": true,
+    "files.insertFinalNewline": true,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "go": true
+    },
+    "go.formatTool": "gofumpt"
 }
