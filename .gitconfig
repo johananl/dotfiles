@@ -28,3 +28,5 @@
 	azreposCredentialType = oauth
 [credential "https://dev.azure.com"]
 	useHttpPath = true
+[color "diff"]
+	meta = "#c288e1"
